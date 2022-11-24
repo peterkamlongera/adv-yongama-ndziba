@@ -33,11 +33,15 @@ module.exports = {
       'color-1': '#212738',
       'color-2': '#7A7978',
       'color-3': '#EDF2EF',
-      'black': '#000000',
+      'black': '#141414',
       'color-5': '#353D03',
     },
     backgroundImage: {
-      'pattern-1': "url('../assets/svg/confetti-doodles.svg')"
+      'pattern-1': "url('./assets/svg/confetti-doodles.svg')",
+      'pattern-2': "url('../../assets/svg/texture.svg')",
+      'pattern-3': "url('../../assets/svg/squares.svg')",
+      'pattern-4': "url('../../assets/svg/bg-1.svg')",
+      'pattern-5': "url('../../assets/imgs/background-2.jpg')"
     },
     extend: {
   plugins: [],
